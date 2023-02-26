@@ -1,0 +1,220 @@
+/*  baner dış hizalama*/
+.userbanner{
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-left:20px;
+    width:99% ;
+    height: 200px;
+}
+
+/* kullanıc arka plan resmi*/
+.userimg img{
+    border-radius: 20px;
+    width: 98%;
+    height: 300px;
+    border: 2px solid white;
+}
+
+/* kullanıcı prof resmi*/
+.proffot img{
+    border: 2px solid white;
+    margin-left: 30px;
+    margin-top: -90px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* kullanıcı ismi*/
+.usernamee h3{
+    margin-left: 20px;
+    margin-top: 15px;
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+}
+
+/* kullanıcı bilgi */
+.aciklama p{    
+    margin-left: 20px;
+    font-size: 18px;
+    margin-top: 15px;
+    color: white;
+    width: 600px;
+}
+
+/* takip et ve mesaj at button*/
+.submit{
+    margin-left: 20px;
+    float: left;
+    text-align: center;
+    font-family: initial;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 35px;
+    width: 120px;
+}
+/* kullanıcı bilgileri  sağ taraf*/
+.sagbil{
+    padding: 20px;
+    margin-right: 80px;
+    margin-top: -150px;
+    border: 1px solid rgb(77, 76, 76);
+    border-radius: 20px;
+    width: 300px;
+    height: 250px;
+    float: right;
+}
+/* sağ bilgi satır aralık*/
+.sagic{
+    padding: 10px;
+    height: 20px;
+    width: 95%;
+}
+
+/* sağ bilgi sol taraf yazılar*/
+.bilgi1 h3{
+    float: left;
+    color: white;
+}
+
+/* sağ bilgi sağ taraf*/
+.bilgisag h3{
+    color: white;
+    float: right;
+}
+/* sağ bilgi alt taraf çizgi*/
+.cizgii{
+    margin-top: 15px;
+    border-top: 1px solid rgb(77, 76, 76);
+}
+
+/* kullanıcı nftleri genel */
+.usergenl{
+    padding-top: 25px;
+    border: 1px solid rgb(77, 76, 76);
+    border-radius: 20px;
+    background-color: none;
+    height: 600px;
+    width: 95%;
+    margin-left: 40px;
+    margin-top: 480px;
+    
+}
+
+/* kullanıcı nft kutusu üzerine gelince*/
+.usergenl:hover{
+    padding-top: 25px;
+    border: 1px outset white;
+    border-radius: 20px;
+    background-color: rgb(54, 54, 54, 0.5);
+    height: 600px;
+    width: 95%;
+    margin-left: 40px;
+    margin-top: 480px;
+    
+}
+
+
+/* kutu içindeki nft kutuları*/
+.usernft img{
+    border: 2px wheat;
+    margin-top: 10px;
+    height: 150px;
+    padding: 10px;
+    float: left;
+    display:inline-block;
+}
+
+/* nftlerin alt tarafındaki boşluk*/
+.usernft1{
+    height: 200px;
+    margin-top: 20px;
+
+}
+
+.usernft2{
+    height: 200px;
+    margin-top:50px;
+}
+
+/* bütün nftleri sola kaydırıyor*/
+.usernft{
+    margin-left: 50px;
+}
+
+/* nftleri ve yazıları */   
+.usernftt{
+    background-color: rgb(77, 76, 76, 0.5);
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 10px;
+    height: 240px;
+    padding: 10px;
+    float: left;
+    display:inline-block;
+    border: 2px solid black;
+    border-radius: 22px;
+    display: block;
+}
+
+
+/* nftlerin üzerine gelince*/
+.usernftt:hover{
+    background-color: rgb(77, 76, 76, 0.5);
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 10px;
+    height: 240px;
+    padding: 10px;
+    float: left;
+    display:inline-block;
+    border: 2px solid white;
+    border-radius: 22px;
+    display: block;
+}
+
+
+/* satın al button */
+.btnbuy{
+    text-align: center;
+    width: 80px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 45px;
+    height: 30px;
+    margin-top: 150px;
+}
+
+/* satın al button içindeki yazı*/
+.btnbuy h3{
+    margin-top:90px;
+    color: rgb(77, 76, 76,0.0);
+    
+}
+    
+/* button üzerine gelince*/
+.btnbuy h3:hover{
+    margin-left: -55px;
+    padding-top:10px;
+    background-color: white;
+    color: black;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    width: 190px;;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  
+    height: 30px;
+}
+
+/* nft isimleri*/
+.usertext{
+    color: white;
+    font-size: 20px;
+    width: auto;
+    height: 50px;
+    margin-top: 10px;
+}

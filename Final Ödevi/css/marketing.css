@@ -1,0 +1,105 @@
+
+/* div görünmez boşluk*/
+.marketingnft{
+    margin-top: 50px;
+    padding: 20px;
+
+    height: 1730px;
+    width: 94.9;
+
+}
+
+/* 2. satırdan sonraki nftleri yan yana hizalıyor*/
+.marketing2{
+    margin-top: 20px;
+    display: inline-flex;
+    margin-left: 18px;
+}
+
+/* nft etrafındaki çizgi*/
+.marketcizgi{
+    padding: 15px;
+    height: 1630px;
+    border: 1px solid rgb(77, 76, 76);
+    border-radius: 20px;
+}
+
+/* nft arka plan ve dış çizgi*/
+.marketcizgi:hover{
+    padding: 15px;
+    height: 1630px;
+    border: 1px solid white;
+    background-color: rgb(54, 54, 54, 0.5);
+    border-radius: 20px;
+}
+
+/* nftleri yan yana hizalama */
+.marketing{
+    margin-left: 18px;
+    display: inline-flex;
+}
+
+/* nftlerin kutuları*/
+.marketnft{
+    padding: 15px;
+    padding-bottom: 35px;
+    border: 1px solid rgb(56, 56, 56);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+/* nft kutularının üzerine gelince olacak olan*/
+.marketnft:hover{
+    padding: 15px;
+    padding-bottom: 35px;
+    border: 1px solid white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(36, 36, 36);
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+
+
+
+/* nft kutu altı satın al butonu*/
+.butbyn{
+    margin-left: 50px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 50%;
+    background-color:rgb(41, 41, 41);
+    border-radius: 5px;
+    height: 30px;
+}
+
+/* kutu altı buton üzerine gelince olacak olan*/
+.butbyn:hover{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 50%;
+    background-color:rgb(202, 200, 200);
+    border-radius: 5px;
+    height: 30px;
+    color: black;
+}
+
+/* nft fiyat*/
+.ethrium{
+    margin-top: 10px;
+    font-size: 22px;
+    height: 30px;
+}

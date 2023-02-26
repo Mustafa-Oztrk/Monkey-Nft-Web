@@ -1,0 +1,90 @@
+/* genel sayfa div*/
+.hakkinda{
+    padding: 20px;
+    margin-top: 50px;
+    
+    width: 90%;
+    height: 900px;
+}
+
+/* hakkında yazılaır ortalama için*/
+.hakkinaic{
+    padding-top: 90px;
+    padding-left: 90px;
+    height: 900px;
+    width: 80%;
+
+}
+
+/*  foto yanındaki yazı divi*/
+.hamkkindayazii{
+    width: 40%;  
+    float: left;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/* hakımızda paragraf*/
+.hamkkindayazii p{
+    font-size: 25px;
+    color: white;
+    
+}
+
+/* hakkınnda foto div*/
+.hakkindafoto{
+    margin-left: 50px;
+    margin-top: -20px;
+    float: left;
+}
+/* kuruluş iç-nce çizgi*/
+.kurulus{
+    border: none;
+    background-color:rgba(119, 118, 118, 0.1);
+    padding: 20px;
+    height: 200px;
+   
+}
+
+/* kuruluş divi hizalama*/
+.kurulusic{
+    display: inline-flex;
+    margin-left: 5px;
+    height: 200px;
+    width: 95%;
+    padding-left: 100px;
+}
+
+/* kuruluş divi hizallama*/
+.kurulusimgdis{
+    margin-left: 200px;
+    height: 200px;
+    width: 200px;
+}
+
+/* kuruşluş fotografları*/
+.kurulusimg img{
+    margin-top: 20px;
+    margin-left: 50px;
+    height: 100px;
+}
+
+/* kuruluş alt yazı divi*/
+.kutulusyazi{
+    text-align: center;
+    
+}
+
+/* kuruluş yazıları*/
+.kutulusyazi h3{
+    font-size: 30px;
+    color: white;
+}
+
+
+/* kuruluş küçük yazı*/
+.kutulusyazi h4{
+    font-weight: 300;
+    font-size: 25px;
+    color: white;
+}

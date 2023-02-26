@@ -1,0 +1,62 @@
+
+/* keşfet dış ortalam*/
+.kesfet{
+    padding: 20px;
+    padding-left: 90px;
+    width: 99.9;
+    height: auto;
+    margin-top: 90px;
+}
+
+/* keşfet iç ortalama div*/
+.kesfetic{
+    padding: 90px;
+    border-radius: 20px;
+    border: 1px solid rgb(56, 56, 56);
+    height: auto;
+    width: 99.9;
+}
+
+/* keşfet iç üzerine gelince olacak olan*/
+.kesfetic:hover{
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: rgb(36, 36, 36);
+}
+
+/* nft ve yazı*/
+.kesfetblok{
+    padding: 20px;
+    height: auto;
+    width: 800px;
+    margin-top: 130px;
+    margin-left: 190px;
+    display: inline-flex;
+    border: 2px solid rgb(54, 54, 54, 0.5);
+    border-radius: 15px;
+
+}
+
+/* nft yazı ve resim üzerine gelince */
+.kesfetblok:hover{
+    background-color: rgb(27, 27, 27);
+    border: 1.5px solid rgb(104, 102, 102);
+}
+
+/* keşfet resim*/
+.kesfetresim{
+    border-radius: 15px;
+    width: 225px;
+    border: 1px solid rgb(104, 102, 102);
+    padding: 20px;
+    float: inline-start;
+}
+
+
+/* keşfet yazı*/
+.kesfetyazi{
+    margin-left: 20px;
+    margin-top: 130px;
+    float: left;
+    color: white;
+}

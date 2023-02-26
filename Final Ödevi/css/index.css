@@ -1,0 +1,442 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* genel sayfa */
+.body{
+    background-color: rgb(32, 32, 32);
+   height: 2500px,;
+    padding-bottom: 20px;
+}
+
+/* banner dış divi*/
+.banner{
+    display: inline-flex;
+    width: 99.9%;
+    height: 185px;
+    background-color: rgba(39, 39, 39, 0.8);
+    backface-visibility: hidden;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-color: wheat;
+    border-bottom-style: groove;
+    margin-top: -20px;
+    
+}
+
+
+/* menü yazılarını sola yaslamak için kullanılır*/
+.menu{
+    float: left;
+   
+}
+
+/* arama kuhtusu dış div*/
+.searchana{
+    margin-top: 50px;
+    width: 500px;
+    height: 50px;
+    margin-left: 50px;
+}
+/* arma kutusu*/
+.searchana input{
+    margin-top: 50px;
+    padding: 5px; 
+    border-radius: 10px;
+    width: 400px; 
+    background-color: rgba(177, 175, 175, 0.5); 
+    opacity: 0.5;
+    color: rgb(255, 255, 255);
+    border: 1.5px solid white;
+}
+
+/* arama buttonu*/
+.arama i{
+    background-color: none;
+    border-radius: 50%;
+    padding: 7px;
+}
+
+/* cüzdan bağlama buttonu*/
+
+.connect a {
+    margin-top: -20px;
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 20px;
+    color: black;
+    float: inline-end;
+    margin-right: 50px;
+    background-color:rgb(77, 76, 76);
+}
+
+/* logo dış div*/
+
+.logo{
+    height: 120px;
+    width: 120px;
+    float: left;
+
+    padding: 20px;
+}
+
+/* logo fotografı*/
+.logo img{
+    margin-top: 40px;
+    margin-left: 50px;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    float: left;
+   
+}
+
+
+
+/* menu yazıları*/
+
+.menu li{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 85px;
+    margin-left: 30px;
+    list-style: none;
+    text-decoration:none ;
+    display: inline-block;
+    position: relative;
+}
+
+/* menü başlıkalrına link vermek için*/
+.menu a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+/* menü başlıklarının üzerine gelince olacak şey*/
+
+.menu a:hover{
+    color: white;
+    font-size: 31px;    
+}
+
+
+/* nft kutusu üzerindeki boşluk*/
+
+.baslik{
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+/*  nft kutusu başlıkları // günlük hacim vs*/
+
+.baslik h4{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+    display: inline;
+}
+
+
+
+/* kullanıcı bilgilerinin olduğu dış div*/
+.bg{
+    padding-top: 10px;
+    padding: 10px;
+    height: 100px;
+    
+}
+
+
+/*  kutu üstü başlıkları saga çekiyor*/
+.yazi{
+    margin-left: 310px;
+    margin-right: 250px;
+}
+
+/* günlük hacim*/
+.yazi1{
+  margin-right: 150px;  
+}
+
+
+
+/* kullanıcı dış kutu ve çizgi */
+.duvar{
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-left: 120px;
+    height: 730px;
+    width: 85%;
+    border: 1px solid rgb(77, 76, 76);
+    border-radius: 30px;
+}
+
+
+/* kutu üzerine gelince olacka şey */
+.duvar:hover{
+    background-color: rgba(41, 40, 40, 0.4);
+}
+
+/* kullanıcı bilgilerini aşağı çekmek için*/
+.icbg{
+    margin-top: 10px;
+}
+
+/* kullanıcı satırı üstüne gelince olacak şey */
+.bg:hover{
+    background-color: rgb(92, 90, 90);
+    border-radius: 20px;
+}
+
+
+.profif{
+    position: relative;
+}
+
+/* kullanıcı fotografı*/
+.profif img{
+    float: left;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/* kullanıcı  adları*/
+.username h3{
+    font-size: 30px;
+    margin-top: 20px;
+    float: left;
+    color: white;
+    margin-right: 155px;
+}
+
+/* günlük hacim yazıları*/
+.dayvolume h3{
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+    float: left;
+    display: inline;
+}
+
+/* günlük hacim nft yazısı*/
+.dayvolume p{
+    color: rgb(133, 132, 132);
+    float: left;
+    padding-left: 8px;
+    margin-top: 29px;
+    margin-right: 180px;
+}
+
+/* taban fiyat*/
+.price h3{
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+    float: left;
+    display: inline;
+
+}
+
+/* taban fiyat eth yazısı*/
+.price p{
+    color: rgb(133, 132, 132);
+    float: left;
+    padding-left: 8px;
+    margin-top: 29px;
+    margin-right: 50px;
+}
+
+/* nft foto dış div*/
+nftler{
+    margin-top: -10px;
+    float: left;
+    height: 100px;
+    width: 600px;
+}
+
+
+/* nft üzerine gelince olan*/
+.nftler:hover{
+    background-color: rgb(61, 60, 60);
+    border-radius: 20px;
+    margin-top: -10px;
+    float: left;
+    height: 100px;
+    width: 600px;
+}
+
+/* nft foto büyütme */
+.nft a :hover{
+    height: 85px;
+    width: 85px;
+}
+
+/* nft foto şekillendirme*/
+.nft img{
+    float: left;
+    border-radius: 10px;
+    margin-left: 13px;
+    margin-top: 10px;
+    height: 80px;
+    width: 80px;
+    margin-right: 5px;
+}
+
+/* fuuter kısmı dış div*/
+.alt{
+    margin-top: 50px;
+    height: 500px;
+    width: 99.8%;
+    background-color: rgb(61, 60, 60);
+    border-top: 2px solid white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+/* futter iç div*/
+.altic{
+    padding-top: 100px;
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 99%;
+    height: 75%;
+    
+}
+
+/* fuuter ic genel divi*/
+.alticust{
+    padding-top: 10px;
+    margin-left: 10px;
+    height: 70px;
+    width: 99%;
+}
+
+/* mail kutusu input*/
+.mailkutu input {
+    border: 2px solid;
+    border-color: beige;
+    margin-left: 50px;
+    float: left;
+    height: 30px;
+    border-radius: 10px;
+    width: 420px;
+}
+
+/* gmail kenarı fönder buttonu*/
+.gonderr input{
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin-top: 3px;
+    margin-left: 10px;
+    margin-right: 250px;
+    float: left;
+    padding: 5px;
+}
+/* gönder buttonu oynatma divi */
+.gonderr{
+    height: auto3;
+    width: 99.9;
+    display: inline-flex;
+}
+
+
+/* futter içindeki başlıklar*/
+.gonderr h3{
+    width: 200px;
+    margin-right: 200px;
+    float: left;
+    color: white;
+    font-size: 20px;
+}
+
+/* tw ve insta kodları*/
+.gonderr h4{
+   
+    float: left;
+    color: white;
+    font-size: 20px;
+}
+
+/* uyguluma market divi*/
+.indirgenel{
+    margin-top: 50px;
+    margin-left: 750px;
+    height: 90px;
+    width: 50%;
+}
+
+/* dowlaoad butonu*/
+.indir1, .indir2{
+    margin-left: 250px;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-flex;
+    padding: 10px;
+    width: 90px;
+    background-color: aliceblue;
+}
+
+/* dowload button mağza ismi*/
+.indir1 a, .indir2 a{
+   
+    margin-left: 7px;
+    padding: 2px;
+    float: left;
+    color: black;
+    font-weight: 900;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+
+/* mağza ismi üstüne gelince*/
+.indir1 a:hover{
+   
+    color: blue;
+}
+.indir2 a:hover{
+    color: blue;
+}
+
+
+/* bütün hakları saklıdır*/
+.iletisim{
+    margin-left: 150px;
+    margin-bottom: 10px;
+}
+
+.iletisim h4{
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.iletisim h3{
+    color: white;
+    font-size: 30px;
+}
+.altbaslik{
+    height: auto;
+}
+
+
+.haklar{
+    padding-top: 15px;
+    margin-top: 250px;
+    text-align: center;
+    height: 35px;
+    width: 99.9%;   
+    
+    border-top: 3px solid rgb(43, 42, 42);
+}
+.haklar h3{
+    
+    color: white;
+    margin-top: 1;
+}
